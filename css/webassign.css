@@ -1,0 +1,156 @@
+/*note to future self: label what all of these are styling specifically*/
+body,
+#webAssign,
+.css-1k54hlu > tbody > tr > td > a > div,
+#popupWrap {
+  background-color: black;
+  color: white;
+}
+body:not(body body) {
+  overscroll-behavior: none;
+}
+.css-76feub {
+  background-color: #111 !important;
+}
+.qResponse,
+.title,
+.popupContent {
+  background-color: black !important;
+}
+h2,
+.css-14vtsdc,
+.css-l1j587,
+.css-d6knxq,
+article > section,
+.css-1nohyfr,
+.css-ydjurp,
+.css-1ty5o0i th,
+.previousAnswersContainer .container.popupWrap {
+  background-color: #111 !important;
+}
+.assets h1 {
+  background-color: #222;
+}
+h1,
+h2,
+h5,
+p,
+section,
+.title > *,
+.css-mrxdza-StyledCard *,
+.css-14vtsdc,
+.css-l1j587,
+.css-d6knxq,
+.css-qnc8v6,
+.css-ydjurp,
+.css-5ijub1 > *,
+.css-xd4348 > *,
+.css-15dzg1z > *,
+.css-1k54hlu > tbody > tr > td > a > div > p,
+.css-kao9pe *:not(a),
+.css-1ty5o0i * {
+  color: #ccc !important;
+}
+.css-1i1pfxt, .css-19dp8pl {
+  background-color: #243418 !important;
+}
+.css-12xx7r3, .css-1qv5qzw {
+  background-color: #480505 !important;
+}
+.css-11flc95 {
+  background-color: #443104 !important;
+}
+.css-196c23,
+.css-1i4m84r,
+.css-2i9pir {
+  background-color: #111;
+}
+#studentSubHeader {
+  background-color: #00324d;
+}
+#printAssignment {
+  display: none;
+}
+.submitSaveStandard > input {
+  background: /*linear-gradient(#e5e5e5, #9f9f9f)*/
+      linear-gradient(#1a1a1a, #616161) !important;
+  color: white !important;
+}
+.qTextField > input,
+.css-2ls049 {
+  background-color: #111;
+  color: white !important;
+}
+.css-1nlac3w-BaseStyledButton {
+  border-color: rgba(114, 114, 114, 0.6);
+}
+.css-1dvmcsv-BaseStyledButton {
+  background-color: #333;
+}
+/*input[type="radio"]:after {
+background-color: #444 !important;
+}*/
+.waQBox .standard,
+.waQBox > .qAlert > .standard,
+.waQBox > .qUtility > .qButtons {
+  background-color: black;
+  color: #ddd;
+}
+.qUtility img {
+  filter: invert(1);
+}
+.waQBox > .qAlert {
+  background-color: #4d4d00;
+}
+.css-1k54hlu > tbody > tr > td > a {
+  color: #2c2ccb;
+}
+.css-61mckp {
+  background-color: #161616;
+  color: #eee;
+  border-color: #404040;
+}
+.css-1w47i63 {
+  background-color: #222;
+  color: #eee;
+}
+.static {
+  background-color: #333;
+  color: #777;
+}
+.seenKey {
+  background: #2c492c;
+}
+.strToPrint {
+  color: #ddd !important;
+}
+.css-14hrlwr {
+  background-color: inherit;
+}
+.css-1k54hlu > tbody > tr > td > a > div:first-child:hover {
+  background-color: #222;
+}
+/*article > section > div:first-child > button:hover*/
+.css-21xg7l-BaseStyledButton:not(:disabled):hover,
+.css-21xg7l-BaseStyledButton:not(:disabled):focus, .css-1l927k1 {
+  background-color: #111;
+}
+.css-5llzkt-BaseStyledButton:not(:disabled):hover,
+.css-5llzkt-BaseStyledButton:not(:disabled):focus {
+  background-color: #222;
+}
+span.badge.container > img {
+  filter: invert(0);
+}
+*::-webkit-scrollbar {
+  background: #999;
+}
+*::-webkit-scrollbar-thumb {
+  background: #999;
+}
+*::-webkit-scrollbar-track {
+  background: #333;
+}
+[src="/wastatic/common/img/key.gif"] {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAM9QTFRFLEks79CQ469D/Pje/PXO+eud+/G7////+OeM36A41q9q9uR6+OmT+Om7/vzw3Zcx9+GJ9d1I/fjA2o8v/PfV9+WB8tZG780z/PWt1nso6sNu8s479dtc9t9o89dP+++ExJhS6sR1+u6v8tY489hN9+Rk78kx2IQrxptW8NIn9dQ29uCC46g9/POf/PWoyqBa+eqq7sQnz5JAwZNOzaRe9NhCzbJ/5LNN+u+60biG+/TF8dZCy44857tm9+vD9uF+9+ae17+O5c+h1qBK3saXhBtlJgAAAKhJREFUeJx9j1sXgUAUhWdOmmJCIUmIipBbQ665+/+/SUtDPdlv+9tnnbU3QlwYAKOcMAhCnmAoiETKSOJlEUAqljgAQaZKGaBS5QQIpVQhqlarc9CQE6I3jZbJf7R1q9PtGbbZTxsMHNcbWiPbH3/uK4ROpsFsvvCXab7yQldla9PfpLkThZHKtt9Ou70VegE7/ErD8aQFcebR+XK9xffczMeTsRf6ozf7/w38YcibigAAAABJRU5ErkJggg==");
+}

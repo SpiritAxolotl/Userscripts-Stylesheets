@@ -1,0 +1,21 @@
+.body,
+.flexrow.storageset,
+.cmanager + div,
+.flexrow.app > div:first-child,
+.flexrow.app > .flexrow,
+.panelblock.mainblock,
+.flexrow.storageset > div:last-child,
+.flexrow.storageset > div:last-child > div {
+  width: 100% !important;
+}
+.flexrow.storageset > div:first-child {
+padding-top: 0 !important;
+  & > div {
+    width: 138px;
+  }
+}
+@media only screen and (max-width: 1029px) {
+  .flexrow.storageset > div:first-child > div {
+    width: 24px;
+  }
+}

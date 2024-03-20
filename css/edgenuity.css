@@ -1,0 +1,45 @@
+.Toolbar, body:nth-child(3) > div {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+#frame_video_controls > * {
+  visibility: visible !important;
+}
+
+body {
+  overscroll-behavior: none;
+  height: 100vh;
+}
+.mainfoot a[disabled], .mainfoot a.disabled, .mainfoot a[disabled]:hover, .mainfoot a.disabled:hover {
+  cursor: not-allowed;
+  color: #999;
+}
+
+@media screen and (max-width: 1099px) {
+  #activity, .activityActive #wrap {
+    padding-bottom: 0;
+  }
+  
+  .ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close[class*="icon-"] {
+    background-size: 1900%;
+    background-position-y: 0.05%;
+    background-position-x: 0.01;
+  }
+}
+
+.ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close > * {
+  display: none;
+}
+
+#slider-vertical-slider > * {
+  cursor: ns-resize;
+}
+
+.answer-choice-button {
+  cursor: pointer;
+}
+
+#invis-o-div {
+  display: none !important;
+}

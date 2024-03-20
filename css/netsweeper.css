@@ -1,0 +1,29 @@
+html, body {
+  background-color: #101020 !important;
+}
+html {
+  height: 100vh;
+  margin: 0;
+}
+html div {
+  color: #bbb;
+}
+body {
+  min-height: revert !important;
+}
+#denied_msg {
+  background-color: #202040 !important;
+  font-family: Courier;
+  text-align: left;
+  line-break: anywhere;
+  white-space: pre-wrap;
+}
+#logo-container {
+  display: none;
+}
+#contact_msg {
+  display: none;
+}
+.darker, .darker * {
+  color: #999;
+}

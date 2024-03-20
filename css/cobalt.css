@@ -1,0 +1,3 @@
+[src="emoji/dragon_face.svg"], img.emoji > div {
+  content: url("emoji/dragon_face_wukko.svg");
+}
