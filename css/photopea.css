@@ -11,6 +11,14 @@
   width: 100% !important;
 }
 
+.panelhead {
+  max-width: revert !important;
+}
+
+.scrollable {
+  overflow-y: auto;
+}
+
 .flexrow.storageset > div:first-child {
   padding-top: 0 !important;
   & > div {
@@ -24,7 +32,7 @@
 }
 
 .flexrow.app > div:last-child {
-  display: none;
+  display: none !important;
 }
 
 body {
