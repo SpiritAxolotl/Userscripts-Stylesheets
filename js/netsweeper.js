@@ -1,6 +1,8 @@
+//this just dumps the parameters from the url into the info menu that otherwise only shows why the site is blocked
+//best used with the css as well
 let showPersonal = true;
 const personal = ["groupname","userip","connectionip","username"];
-const denied = document.getElementById("denied_msg").children[0];
+const [denied] = document.getElementById("denied_msg").children;
 const urlParams = new URLSearchParams(window.location.search);
 const order = ["reason"];
 if (denied.innerHTML.includes("Your administrator has blocked this site."))
@@ -34,4 +36,5 @@ for (const [key, value] of urlParams.entries()) {
 }
 output = output.substring(1); //removes newline at the beginning
 denied.innerHTML = output;
+//sets the favicon to one of the images on the page
 document.head.innerHTML += `<link rel="icon" href="${document.querySelector("img[title='ACCESS DENIED']").src}"></link>`;
