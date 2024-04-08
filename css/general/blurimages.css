@@ -1,0 +1,7 @@
+img {
+  transition: filter 0.075s;
+  filter: blur(10px);
+  &:hover {
+    filter: blur(0px);
+  }
+}
