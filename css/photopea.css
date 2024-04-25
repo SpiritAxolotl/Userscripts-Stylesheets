@@ -2,10 +2,12 @@
 
 /*
 NOTE: the canvas element that has the actual
-photo editing stuff still assumes the cropped UI,
-so anything on the right will just Not render,
-making the UI widening stuff kinda useless.
-sorry chat
+  photo editing stuff still assumes the cropped UI,
+  so anything on the right will just Not render,
+  making the UI widening stuff kinda useless.
+  sorry chat
+  (at some point I'll look into writing
+    a userscript that fixes this)
 */
 
 .body,

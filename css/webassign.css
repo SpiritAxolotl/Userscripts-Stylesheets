@@ -156,3 +156,23 @@ span.badge.container > img {
 [src="/wastatic/common/img/key.gif"] {
   content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAM9QTFRFLEks79CQ469D/Pje/PXO+eud+/G7////+OeM36A41q9q9uR6+OmT+Om7/vzw3Zcx9+GJ9d1I/fjA2o8v/PfV9+WB8tZG780z/PWt1nso6sNu8s479dtc9t9o89dP+++ExJhS6sR1+u6v8tY489hN9+Rk78kx2IQrxptW8NIn9dQ29uCC46g9/POf/PWoyqBa+eqq7sQnz5JAwZNOzaRe9NhCzbJ/5LNN+u+60biG+/TF8dZCy44857tm9+vD9uF+9+ae17+O5c+h1qBK3saXhBtlJgAAAKhJREFUeJx9j1sXgUAUhWdOmmJCIUmIipBbQ665+/+/SUtDPdlv+9tnnbU3QlwYAKOcMAhCnmAoiETKSOJlEUAqljgAQaZKGaBS5QQIpVQhqlarc9CQE6I3jZbJf7R1q9PtGbbZTxsMHNcbWiPbH3/uK4ROpsFsvvCXab7yQldla9PfpLkThZHKtt9Ou70VegE7/ErD8aQFcebR+XK9xffczMeTsRf6ozf7/w38YcibigAAAABJRU5ErkJggg==");
 }
+
+
+
+
+/*shrinks images in answer choices and vertically centers the radio button*/
+.accblock > label > img {
+  width: 200px;
+}
+.accblock {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.accplotmc {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}

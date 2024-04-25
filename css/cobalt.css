@@ -3,6 +3,6 @@ this just replaces the normal dragon emoji with the custom wukko one
 I *did* make a pr (https://github.com/wukko/cobalt/pull/355) on cobalt
 to add an option to toggle this but it got rejected, so yea just use this
 */
-[src="emoji/dragon_face.svg"] {
+[src$="emoji/dragon_face.svg"] {
   content: url("emoji/dragon_face_wukko.svg");
 }
